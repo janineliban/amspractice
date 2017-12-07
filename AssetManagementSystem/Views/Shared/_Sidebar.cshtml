@@ -1,0 +1,24 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>_Sidebar</title>
+</head>
+<body>
+<!-- sidebar menu: : style can be found in sidebar.less -->
+<ul class="sidebar-menu" data-widget="tree">
+    <li class="header">MAIN NAVIGATION</li>
+    <li><a href="@Url.Action("Index", "Employees")"><i class="fa fa-user text-aqua"></i> <span>Employee</span></a></li>
+    <li><a href="@Url.Action("Index", "Items")"><i class="fa fa-mobile text-aqua"></i> <span>Item</span></a></li>
+    <li><a href="@Url.Action("Index", "Departments")"><i class="fa fa-building text-aqua"></i> <span>Department</span></a></li>
+    <li><a href="@Url.Action("Index", "Transactions")"><i class="fa fa-exchange text-aqua"></i> <span>Transactions</span></a></li>
+</ul>
+<!-- /.sidebar -->
+</body>
+</html>
